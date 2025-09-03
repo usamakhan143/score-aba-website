@@ -79,12 +79,12 @@ const Contact = () => {
           <div className="contact-hero-content">
             <div className="contact-hero-text">
               <h1 className="contact-hero-headline">
-                Start Your Child's Journey
-                <span className="headline-accent">Take the First Step Today</span>
+                Contact Our Atlanta Team
+                <span className="headline-accent">Serving Atlanta, Georgia and Surrounding Areas</span>
               </h1>
               <p className="contact-hero-subtitle">
-                Ready to unlock your child's potential? Our team of dedicated professionals 
-                is here to guide you through every step of the ABA therapy process.
+                Ready to unlock your child's potential with in-home ABA therapy? Our Atlanta team of
+                BCBA certified professionals is here to guide you through every step of the ABA therapy process.
               </p>
               
               <div className="contact-hero-stats">
@@ -131,7 +131,7 @@ const Contact = () => {
               <div className="contact-form-header">
                 <h2 className="form-title">Get Started Today</h2>
                 <p className="form-subtitle">
-                  Complete this form and our team will reach out within 24 hours to schedule your free consultation.
+                  Complete this form and our team will reach out to schedule your free consultation.
                 </p>
               </div>
               
@@ -211,11 +211,10 @@ const Contact = () => {
                       className="premium-form-select"
                     >
                       <option value="">Select service type</option>
-                      <option value="in-home">In-Home ABA Therapy</option>
-                      <option value="clinic">Clinic-Based Programs</option>
-                      <option value="school">School Support Services</option>
-                      <option value="parent-training">Parent & Family Training</option>
-                      <option value="assessment">Assessment Only</option>
+                      <option value="in-home">In-Home ABA Therapy (Atlanta)</option>
+                      <option value="parent-training">Parent Training & Coaching</option>
+                      <option value="behavior-plans">Behavior Intervention Plans</option>
+                      <option value="assessment">Developmental Assessments</option>
                       <option value="consultation">General Consultation</option>
                     </select>
                   </div>
@@ -254,7 +253,7 @@ const Contact = () => {
                 </div>
                 
                 <button type="submit" className="premium-btn form-submit-btn">
-                  <span>Schedule Free Consultation</span>
+                  <span>Contact Our Atlanta Team</span>
                   <CalendarDaysIcon className="btn-icon" />
                   <div className="btn-ripple"></div>
                 </button>
@@ -270,7 +269,7 @@ const Contact = () => {
               <div className="contact-info-header">
                 <h2 className="info-title">Contact Information</h2>
                 <p className="info-subtitle">
-                  Multiple ways to connect with our team
+                  Serving Atlanta, Georgia and Surrounding Areas - Multiple ways to connect with our Atlanta team
                 </p>
               </div>
               
@@ -281,7 +280,7 @@ const Contact = () => {
                   </div>
                   <div className="contact-card-content">
                     <h3 className="contact-card-title">Call Us</h3>
-                    <p className="contact-card-text">(512) 555-0123</p>
+                    <p className="contact-card-text">(404) 555-0123</p>
                     <p className="contact-card-sub">Mon-Fri, 8AM-6PM</p>
                   </div>
                 </div>
@@ -303,8 +302,8 @@ const Contact = () => {
                   </div>
                   <div className="contact-card-content">
                     <h3 className="contact-card-title">Service Areas</h3>
-                    <p className="contact-card-text">Austin & Surrounding Areas</p>
-                    <p className="contact-card-sub">In-home and clinic services</p>
+                    <p className="contact-card-text">Atlanta & Surrounding Areas</p>
+                    <p className="contact-card-sub">Home-based services only</p>
                   </div>
                 </div>
                 
@@ -326,8 +325,8 @@ const Contact = () => {
                   <h3 className="emergency-title">Crisis Support</h3>
                 </div>
                 <p className="emergency-text">
-                  For behavioral emergencies outside business hours, contact our 24/7 crisis line at 
-                  <strong> (512) 555-HELP</strong>
+                  For behavioral emergencies outside business hours, contact our crisis line at
+                  <strong> (404) 555-HELP</strong>
                 </p>
               </div>
             </div>
@@ -391,8 +390,8 @@ const Contact = () => {
               Your Child's Success Story Starts Here
             </h2>
             <p className="contact-cta-subtext">
-              Join hundreds of families who have transformed their children's lives through 
-              our evidence-based ABA therapy programs.
+              Join families in Atlanta who have benefited from
+              our evidence-based home-based ABA therapy programs.
             </p>
             
             
@@ -403,7 +402,7 @@ const Contact = () => {
               </div>
               <div className="trust-item">
                 <StarIcon className="trust-icon" />
-                <span>95% Family Satisfaction Rate</span>
+                <span>Quality Home-Based Care</span>
               </div>
               <div className="trust-item">
                 <HeartIcon className="trust-icon" />

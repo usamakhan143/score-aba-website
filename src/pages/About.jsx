@@ -24,10 +24,11 @@ const About = () => {
         <div className="premium-container">
           <div className="hero-banner-content">
             <div className="hero-banner-text">
-              <h1 className="hero-banner-headline">About Score ABA</h1>
+              <h1 className="hero-banner-headline">About Score ABA Atlanta</h1>
               <p className="hero-banner-subtitle">
-                Pioneering excellence in Applied Behavior Analysis through compassionate care, 
-                scientific rigor, and unwavering commitment to every child's potential.
+                Atlanta's premier provider of <strong>in-home ABA therapy</strong> services. We deliver excellence in
+                Applied Behavior Analysis through compassionate home-based care, scientific rigor, and unwavering
+                commitment to every child's potential throughout <strong>Atlanta, Georgia</strong>.
               </p>
             </div>
           </div>
@@ -49,9 +50,9 @@ const About = () => {
                   </div>
                   <h3 className="mission-card-title">Our Mission</h3>
                   <p className="mission-card-text">
-                    To empower children with autism and developmental differences to achieve their 
-                    highest potential through compassionate, individualized Applied Behavior Analysis 
-                    therapy that respects their unique strengths and challenges.
+                    To empower children with autism and developmental differences throughout Atlanta to achieve their
+                    highest potential through compassionate, individualized <strong>in-home ABA therapy</strong>
+                    that respects their unique strengths and challenges.
                   </p>
                 </div>
                 
@@ -61,9 +62,9 @@ const About = () => {
                   </div>
                   <h3 className="mission-card-title">Our Vision</h3>
                   <p className="mission-card-text">
-                    A world where every child with autism has access to quality, evidence-based 
-                    care that celebrates their individuality while providing the support they need 
-                    to thrive in their communities.
+                    A world where every child with autism in Georgia has access to quality, evidence-based
+                    <strong>home-based autism services</strong> that celebrate their individuality while providing the support they need
+                    to thrive in their Atlanta communities.
                   </p>
                 </div>
               </div>
@@ -78,7 +79,7 @@ const About = () => {
           <div className="timeline-header">
             <h2 className="premium-section-title center">Our Journey</h2>
             <p className="premium-subtitle center">
-              From humble beginnings to becoming a trusted leader in ABA therapy
+              From humble beginnings to becoming a trusted provider of home-based ABA therapy in Atlanta
             </p>
           </div>
           
@@ -135,9 +136,9 @@ const About = () => {
                 <div className="timeline-year">2021-2024</div>
                 <h3 className="timeline-title">Expansion & Excellence</h3>
                 <p className="timeline-description">
-                  Achieved significant growth while maintaining the highest standards of 
-                  care, serving over 500 families and establishing partnerships with 
-                  schools and healthcare providers.
+                  Achieved significant growth while maintaining the highest standards of
+                  home-based care, establishing strong relationships with families and
+                  healthcare providers throughout Atlanta.
                 </p>
               </div>
             </div>
@@ -170,7 +171,7 @@ const About = () => {
                 <p className="team-member-title">Clinical Director & Founder</p>
                 <p className="team-member-credentials">BCBA-D, Ph.D. in Applied Behavior Analysis</p>
                 <p className="team-member-bio">
-                  15+ years of experience in ABA therapy with specialization in early intervention 
+                  Extensive experience in ABA therapy with specialization in early intervention
                   and family-centered care. Published researcher in peer-reviewed journals.
                 </p>
                 <div className="team-specializations">
@@ -259,20 +260,20 @@ const About = () => {
           
           <div className="team-stats">
             <div className="stat-item">
-              <div className="stat-number">95%</div>
-              <div className="stat-label">Client Satisfaction</div>
+              <div className="stat-number">BCBA</div>
+              <div className="stat-label">Certified Team</div>
             </div>
             <div className="stat-item">
-              <div className="stat-number">15+</div>
-              <div className="stat-label">Years Experience</div>
+              <div className="stat-number">Home</div>
+              <div className="stat-label">Based Services</div>
             </div>
             <div className="stat-item">
-              <div className="stat-number">500+</div>
-              <div className="stat-label">Families Served</div>
+              <div className="stat-number">Atlanta</div>
+              <div className="stat-label">Georgia</div>
             </div>
             <div className="stat-item">
-              <div className="stat-number">24/7</div>
-              <div className="stat-label">Family Support</div>
+              <div className="stat-number">Family</div>
+              <div className="stat-label">Centered Care</div>
             </div>
           </div>
         </div>

@@ -2440,7 +2440,7 @@ img {
 /* Removed heavy glow animation for performance */
 
 .ultra-metric-number {
-  font-size: clamp(2rem, 5vw, 4rem);
+  font-size: clamp(2rem, 5vw, 1rem);
   font-weight: 900;
   background: linear-gradient(135deg, var(--royal-purple), var(--bright-blue));
   background-clip: text;
@@ -10974,3 +10974,38 @@ html.lenis { height: auto; }
 }
 /* Blog styles updated */
 /* Blog cleaned up */
+/* SEO Intro Section */
+.seo-intro-section {
+  padding: var(--space-16) 0;
+  background: var(--luxury-gray);
+}
+
+.seo-intro-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.seo-intro-text {
+  font-size: var(--text-lg);
+  color: var(--dark-gray);
+  line-height: 1.8;
+  font-weight: 400;
+}
+
+.seo-intro-text strong {
+  color: var(--royal-purple);
+  font-weight: 600;
+}
+
+/* Responsive SEO Intro */
+@media (max-width: 768px) {
+  .seo-intro-section {
+    padding: var(--space-12) 0;
+  }
+  
+  .seo-intro-text {
+    font-size: var(--text-base);
+    line-height: 1.7;
+  }
+}

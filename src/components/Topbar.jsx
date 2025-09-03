@@ -23,7 +23,7 @@ const Topbar = () => {
           </div>
           <div className="topbar-item">
             <MapPinIcon className="topbar-icon" />
-            <span>Los Angeles, CA</span>
+            <span>Atlanta, Georgia</span>
           </div>
         </div>
       </div>

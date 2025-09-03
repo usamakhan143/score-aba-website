@@ -33,10 +33,10 @@ const OptimizedHome = () => {
             <div className="hero-text-content">
               <h1 className="ultra-hero-headline">
                 <span className="hero-text-line">
-                  Transform Your Child's Future with
+                  Atlanta's Premier
                 </span>
                 <span className="hero-text-line">
-                  Score ABA
+                  In-Home ABA Therapy Services
                 </span>
                 <span className="headline-accent-ultra">
                   Where Progress is the Score
@@ -44,14 +44,15 @@ const OptimizedHome = () => {
               </h1>
 
               <p className="ultra-hero-subheadline">
-                Transform your child's potential with evidence-based ABA therapy delivered by certified professionals. 
-                Experience personalized care that adapts to your family's unique journey.
+                Personalized autism therapy delivered in the comfort of your Atlanta home.
+                Our BCBA certified professionals provide evidence-based in-home ABA therapy
+                tailored to your child's unique needs and your family's schedule.
               </p>
 
               <div className="ultra-cta-group">
                 <Link to="/contact">
                   <button className="ultra-btn primary-explosive">
-                    <span>Start Services Today</span>
+                    <span>Start Atlanta Services Today</span>
                     <RocketLaunchIcon className="btn-rocket" />
                   </button>
                 </Link>
@@ -91,15 +92,36 @@ const OptimizedHome = () => {
                   
                   <div className="ultra-progress-indicator">
                     <div className="ultra-progress-circle">
-                      <div className="ultra-progress-text">
-                        <span className="ultra-progress-number">95%</span>
-                        <span className="ultra-progress-label">Success Rate</span>
-                      </div>
-                    </div>
+                <div className="ultra-progress-text">
+                  <span className="ultra-progress-number">ABA</span>
+                  <span className="ultra-progress-label">Certified</span>
+                </div>
+              </div>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </motion.section>
+
+      {/* SEO Intro Section */}
+      <motion.section
+        className="seo-intro-section"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 0.3 }}
+        viewport={{ once: true, margin: "-100px" }}
+      >
+        <div className="premium-container">
+          <div className="seo-intro-content">
+            <p className="seo-intro-text">
+              Score ABA is Atlanta's leading provider of <strong>in-home ABA therapy</strong> services for children with autism.
+              Our specialized <strong>ABA therapy Atlanta</strong> programs bring certified BCBA therapists directly to your home,
+              providing personalized <strong>autism therapy Georgia</strong> families trust. We focus exclusively on home-based
+              interventions that help children develop essential skills in their natural environment while supporting families
+              throughout their journey.
+            </p>
           </div>
         </div>
       </motion.section>
@@ -140,10 +162,10 @@ const OptimizedHome = () => {
         <div className="premium-container">
           <div className="ultra-metrics-grid">
             {[
-              { number: "500+", label: "Families Served" },
-              { number: "95%", label: "Success Rate" },
-              { number: "10+", label: "Years Experience" },
-              { number: "24/7", label: "Family Support" }
+              { number: "Expert", label: "BCBA Team" },
+              { number: "Quality", label: "Care Focus" },
+              { number: "Home", label: "Based Services" },
+              { number: "Family", label: "Support" }
             ].map((metric, index) => (
               <div key={index} className="ultra-metric-card">
                 <div className="ultra-metric-number">{metric.number}</div>
@@ -208,7 +230,7 @@ const OptimizedHome = () => {
         <FeaturesSection />
       </Suspense>
 
-      {/* Our Facility Section */}
+      {/* Home-Based Therapy Section */}
       <motion.section
         className="our-facility-section"
         initial={{ opacity: 0 }}
@@ -222,7 +244,7 @@ const OptimizedHome = () => {
               <div className="main-facility-image">
                 <img
                   src="https://images.pexels.com/photos/23495757/pexels-photo-23495757.jpeg"
-                  alt="Emotional family therapy session with a therapist indoors, conveying connection and support"
+                  alt="Family therapy session in a comfortable home environment with therapist and family"
                   className="facility-main-img"
                   loading="lazy"
                   decoding="async"
@@ -232,7 +254,7 @@ const OptimizedHome = () => {
                 <div className="secondary-facility-image">
                   <img
                     src="https://images.pexels.com/photos/8653978/pexels-photo-8653978.jpeg"
-                    alt="Young girl engaged in play therapy with psychologist's guidance indoors"
+                    alt="Child engaged in home-based therapy activities in a familiar setting"
                     className="facility-secondary-img"
                     loading="lazy"
                     decoding="async"
@@ -241,7 +263,7 @@ const OptimizedHome = () => {
                 <div className="secondary-facility-image">
                   <img
                     src="https://images.pexels.com/photos/6941996/pexels-photo-6941996.jpeg"
-                    alt="Two happy children hugging in a bright art classroom with colorful papers"
+                    alt="Children learning and playing together in a home environment"
                     className="facility-secondary-img"
                     loading="lazy"
                     decoding="async"
@@ -250,23 +272,23 @@ const OptimizedHome = () => {
               </div>
             </div>
             <div className="facility-text-content">
-              <h2 className="ultra-section-title">Modern, Child-Friendly Environment</h2>
+              <h2 className="ultra-section-title">Comfort of Your Own Home</h2>
               <p className="ultra-subtitle">
-                Our state-of-the-art facility is designed to create a comfortable,
-                safe, and engaging environment where children can thrive and families feel supported.
+                We bring expert ABA therapy directly to your home in Atlanta, creating a comfortable,
+                familiar environment where your child can learn and grow with their family nearby.
               </p>
               <div className="facility-highlights">
                 <div className="facility-highlight">
-                  <h4>Sensory-Friendly Spaces</h4>
-                  <p>Specially designed rooms that accommodate different sensory needs and preferences.</p>
+                  <h4>Familiar Environment</h4>
+                  <p>Therapy in your child's natural setting helps with skill generalization and reduces anxiety.</p>
                 </div>
                 <div className="facility-highlight">
-                  <h4>Family Consultation Areas</h4>
-                  <p>Comfortable spaces for family meetings, training sessions, and collaborative planning.</p>
+                  <h4>Family Involvement</h4>
+                  <p>Parents and siblings can participate and learn strategies to support progress throughout the day.</p>
                 </div>
                 <div className="facility-highlight">
-                  <h4>Creative Learning Zones</h4>
-                  <p>Interactive areas equipped with educational tools and engaging activities.</p>
+                  <h4>Flexible Scheduling</h4>
+                  <p>Sessions work around your family's routine and schedule, making therapy convenient and accessible.</p>
                 </div>
               </div>
             </div>

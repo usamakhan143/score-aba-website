@@ -46,16 +46,16 @@ const Careers = () => {
               </p>
               <div className="careers-hero-stats">
                 <div className="hero-stat-box">
-                  <div className="stat-number">50+</div>
-                  <div className="stat-label">Team Members</div>
+                  <div className="stat-number">Expert</div>
+                  <div className="stat-label">BCBA Team</div>
                 </div>
                 <div className="hero-stat-box">
-                  <div className="stat-number">95%</div>
-                  <div className="stat-label">Employee Satisfaction</div>
+                  <div className="stat-number">Home</div>
+                  <div className="stat-label">Based Services</div>
                 </div>
                 <div className="hero-stat-box">
-                  <div className="stat-number">5+</div>
-                  <div className="stat-label">Years Avg. Tenure</div>
+                  <div className="stat-number">Atlanta</div>
+                  <div className="stat-label">Georgia</div>
                 </div>
               </div>
               <div className="careers-hero-cta">
@@ -158,7 +158,7 @@ const Careers = () => {
                 <div className="job-meta">
                   <div className="job-meta-item">
                     <MapPinIcon className="meta-icon" />
-                    <span>Austin, TX / Remote</span>
+                    <span>Atlanta, GA / Remote</span>
                   </div>
                   <div className="job-meta-item">
                     <ClockIcon className="meta-icon" />
@@ -202,7 +202,7 @@ const Careers = () => {
                 <div className="job-meta">
                   <div className="job-meta-item">
                     <MapPinIcon className="meta-icon" />
-                    <span>Austin, TX</span>
+                    <span>Atlanta, GA</span>
                   </div>
                   <div className="job-meta-item">
                     <ClockIcon className="meta-icon" />
@@ -214,8 +214,8 @@ const Careers = () => {
                   </div>
                 </div>
                 <p className="job-description">
-                  Provide direct ABA therapy services under BCBA supervision. Work one-on-one with
-                  children to implement behavior intervention plans and collect data on progress.
+                  Provide direct home-based ABA therapy services under BCBA supervision. Work one-on-one with
+                  children in their homes to implement behavior intervention plans and collect data on progress.
                 </p>
                 <div className="job-requirements">
                   <h4 className="requirements-title">Key Requirements:</h4>
@@ -246,7 +246,7 @@ const Careers = () => {
                 <div className="job-meta">
                   <div className="job-meta-item">
                     <MapPinIcon className="meta-icon" />
-                    <span>Austin, TX</span>
+                    <span>Atlanta, GA</span>
                   </div>
                   <div className="job-meta-item">
                     <ClockIcon className="meta-icon" />
@@ -290,7 +290,7 @@ const Careers = () => {
                 <div className="job-meta">
                   <div className="job-meta-item">
                     <MapPinIcon className="meta-icon" />
-                    <span>Austin, TX / Hybrid</span>
+                    <span>Atlanta, GA / Hybrid</span>
                   </div>
                   <div className="job-meta-item">
                     <ClockIcon className="meta-icon" />

@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import {
   HomeIcon,
-  BuildingOfficeIcon,
   AcademicCapIcon,
   UsersIcon,
   ShieldCheckIcon,
@@ -46,17 +45,17 @@ const Services = () => {
                     <CheckCircleIcon className="stat-icon" />
                   </div>
                   <div className="stat-content">
-                    <span className="stat-number">95%</span>
-                    <span className="stat-label">Success Rate</span>
+                    <span className="stat-number">BCBA</span>
+                    <span className="stat-label">Certified</span>
                   </div>
                 </div>
                 <div className="hero-stat-item">
                   <div className="stat-icon-container">
-                    <ClockIcon className="stat-icon" />
+                    <HomeIcon className="stat-icon" />
                   </div>
                   <div className="stat-content">
-                    <span className="stat-number">15+</span>
-                    <span className="stat-label">Years Experience</span>
+                    <span className="stat-number">Home</span>
+                    <span className="stat-label">Based Only</span>
                   </div>
                 </div>
                 <div className="hero-stat-item">
@@ -64,8 +63,8 @@ const Services = () => {
                     <UsersIcon className="stat-icon" />
                   </div>
                   <div className="stat-content">
-                    <span className="stat-number">500+</span>
-                    <span className="stat-label">Families Served</span>
+                    <span className="stat-number">Family</span>
+                    <span className="stat-label">Focused</span>
                   </div>
                 </div>
               </div>
@@ -79,11 +78,11 @@ const Services = () => {
         <div className="premium-container">
           <div className="service-offerings-header">
             <h2 className="premium-section-title center">
-              Our Service Portfolio
+              In-Home ABA Therapy Atlanta Services
             </h2>
             <p className="premium-subtitle center">
-              Comprehensive ABA therapy programs designed to meet every child where they are 
-              and help them reach their fullest potential
+              Specialized <strong>in-home ABA therapy Atlanta</strong> services delivered in your home.
+              Our <strong>home-based autism services</strong> are provided exclusively in your family's natural environment throughout Atlanta, Georgia.
             </p>
           </div>
 
@@ -96,11 +95,11 @@ const Services = () => {
                 <div className="service-badge">Most Popular</div>
               </div>
               <div className="service-card-content">
-                <h3 className="service-card-title">In-Home ABA Therapy</h3>
+                <h3 className="service-card-title">In-Home ABA Therapy (Atlanta)</h3>
                 <p className="service-card-description">
-                  One-on-one therapy sessions in the comfort and familiarity of your own home. 
-                  Our certified therapists work with your child in their natural environment, 
-                  making learning more meaningful and helping generalize skills to daily routines.
+                  Premier <strong>in-home ABA therapy Atlanta</strong> services delivered by BCBA certified therapists.
+                  One-on-one therapy sessions in the comfort and familiarity of your own home throughout
+                  Atlanta, Georgia. Our evidence-based approach helps children develop essential skills in their natural environment.
                 </p>
                 <div className="service-features">
                   <div className="feature-item">
@@ -134,32 +133,32 @@ const Services = () => {
             <div className="premium-service-card">
               <div className="service-card-header">
                 <div className="service-icon-container secondary">
-                  <BuildingOfficeIcon className="service-icon" />
+                  <HeartIcon className="service-icon" />
                 </div>
               </div>
               <div className="service-card-content">
-                <h3 className="service-card-title">Clinic-Based Programs</h3>
+                <h3 className="service-card-title">Behavior Intervention Plans</h3>
                 <p className="service-card-description">
-                  Structured therapy sessions in our supportive, well-equipped clinic environment.
-                  Perfect for intensive skill building with access to specialized materials and
-                  opportunities for peer interaction.
+                  Comprehensive behavior intervention plans designed specifically for your child's unique needs.
+                  Our BCBA team develops individualized strategies to address challenging behaviors and
+                  promote positive skill development in your Atlanta home.
                 </p>
                 <div className="service-features">
                   <div className="feature-item">
                     <CheckCircleIcon className="feature-check" />
-                    <span>Intensive skill building</span>
+                    <span>Individualized behavior plans</span>
                   </div>
                   <div className="feature-item">
                     <CheckCircleIcon className="feature-check" />
-                    <span>Specialized equipment & materials</span>
+                    <span>Functional behavior assessments</span>
                   </div>
                   <div className="feature-item">
                     <CheckCircleIcon className="feature-check" />
-                    <span>Social interaction opportunities</span>
+                    <span>Evidence-based interventions</span>
                   </div>
                   <div className="feature-item">
                     <CheckCircleIcon className="feature-check" />
-                    <span>Group programming available</span>
+                    <span>Progress monitoring & adjustments</span>
                   </div>
                 </div>
                 <div className="service-card-footer">
@@ -180,28 +179,28 @@ const Services = () => {
                 </div>
               </div>
               <div className="service-card-content">
-                <h3 className="service-card-title">School Support Services</h3>
+                <h3 className="service-card-title">Developmental Assessments</h3>
                 <p className="service-card-description">
-                  Collaborative support with teachers and school staff to ensure your child's
-                  success in educational settings. We provide consultation, training, and direct
-                  support to bridge home and school learning.
+                  Comprehensive developmental assessments conducted in your Atlanta home to identify
+                  your child's strengths and areas for growth. Our BCBA certified team provides
+                  detailed evaluations that inform personalized treatment planning.
                 </p>
                 <div className="service-features">
                   <div className="feature-item">
                     <CheckCircleIcon className="feature-check" />
-                    <span>IEP & 504 plan support</span>
+                    <span>Comprehensive evaluations</span>
                   </div>
                   <div className="feature-item">
                     <CheckCircleIcon className="feature-check" />
-                    <span>Teacher training & consultation</span>
+                    <span>Skills-based assessments</span>
                   </div>
                   <div className="feature-item">
                     <CheckCircleIcon className="feature-check" />
-                    <span>Classroom observation</span>
+                    <span>Treatment plan development</span>
                   </div>
                   <div className="feature-item">
                     <CheckCircleIcon className="feature-check" />
-                    <span>Transition planning</span>
+                    <span>Progress evaluation reports</span>
                   </div>
                 </div>
                 <div className="service-card-footer">
@@ -222,10 +221,11 @@ const Services = () => {
                 </div>
               </div>
               <div className="service-card-content">
-                <h3 className="service-card-title">Parent & Family Training</h3>
+                <h3 className="service-card-title">Parent Training & Coaching</h3>
                 <p className="service-card-description">
-                  Comprehensive training programs that empower parents and families with the tools
-                  and strategies needed to support their child's progress beyond therapy sessions.
+                  Comprehensive parent training and coaching programs delivered in your Atlanta home.
+                  We empower parents and families with the tools and strategies needed to support
+                  their child's progress and implement ABA techniques throughout daily routines.
                 </p>
                 <div className="service-features">
                   <div className="feature-item">

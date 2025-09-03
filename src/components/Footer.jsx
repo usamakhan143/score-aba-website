@@ -130,13 +130,13 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link to="/services" className="footer-nav-link">
-                    <span>Clinic-Based Programs</span>
+                    <span>Behavioral Support at Home</span>
                     <ArrowRightIcon className="link-arrow" />
                   </Link>
                 </li>
                 <li>
                   <Link to="/services" className="footer-nav-link">
-                    <span>School Support Services</span>
+                    <span>Developmental Assessments</span>
                     <ArrowRightIcon className="link-arrow" />
                   </Link>
                 </li>
@@ -166,7 +166,7 @@ const Footer = () => {
                   </div>
                   <div className="contact-details">
                     <div className="contact-label">Service Areas</div>
-                    <div className="contact-value">Austin & Surrounding Areas</div>
+                    <div className="contact-value">Atlanta & Surrounding Areas</div>
                   </div>
                 </div>
 
@@ -176,7 +176,7 @@ const Footer = () => {
                   </div>
                   <div className="contact-details">
                     <div className="contact-label">Phone</div>
-                    <div className="contact-value">(512) 555-0123</div>
+                    <div className="contact-value">(404) 555-0123</div>
                   </div>
                 </div>
 

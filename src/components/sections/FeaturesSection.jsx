@@ -1,23 +1,33 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { BeakerIcon, UsersIcon, AcademicCapIcon } from '@heroicons/react/24/outline';
+import { MapPinIcon, ShieldCheckIcon, DocumentTextIcon, UsersIcon, HomeIcon } from '@heroicons/react/24/outline';
 
 const FeaturesSection = () => {
   const features = [
     {
-      icon: BeakerIcon,
-      title: "Evidence-Based Methods",
-      description: "Our approach is grounded in scientific research and proven methodologies that deliver measurable results."
+      icon: MapPinIcon,
+      title: "Atlanta's Leading In-Home ABA Specialists",
+      description: "Recognized as the premier provider of in-home ABA therapy services throughout Atlanta, Georgia and surrounding areas."
+    },
+    {
+      icon: ShieldCheckIcon,
+      title: "BCBA Certified Therapists",
+      description: "Our entire clinical team is Board Certified in Behavior Analysis (BCBA) with extensive experience in autism intervention."
+    },
+    {
+      icon: DocumentTextIcon,
+      title: "Personalized Home Treatment Plans",
+      description: "Every treatment plan is individually designed for your child's unique needs and delivered in your home environment."
     },
     {
       icon: UsersIcon,
-      title: "Family-Centered Care",
-      description: "We work closely with families to ensure therapy goals align with your child's unique needs and your family's values."
+      title: "Family Collaboration & Training",
+      description: "We work closely with families, providing ongoing training and support to ensure therapy success beyond sessions."
     },
     {
-      icon: AcademicCapIcon,
-      title: "Expert Therapists",
-      description: "Our team consists of highly trained BCBA-certified professionals with extensive experience in autism care."
+      icon: HomeIcon,
+      title: "Convenient Home-Based Sessions",
+      description: "All therapy sessions are conducted in the comfort of your own home, eliminating travel and creating a familiar learning environment."
     }
   ];
 
@@ -31,8 +41,8 @@ const FeaturesSection = () => {
     >
       <div className="premium-container">
         <div className="ultra-features-header">
-          <h2 className="ultra-section-title">Why Families Choose Score ABA</h2>
-          <p className="ultra-subtitle">Experience the difference of premium ABA therapy designed for lasting results</p>
+          <h2 className="ultra-section-title">Why Choose Score ABA Atlanta?</h2>
+          <p className="ultra-subtitle">Experience the difference of specialized in-home ABA therapy delivered by Atlanta's leading autism specialists</p>
         </div>
         
         <div className="ultra-features-grid">
