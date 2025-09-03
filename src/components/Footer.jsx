@@ -43,22 +43,22 @@ const Footer = () => {
               </div>
               
               <p className="footer-description">
-                Empowering children with autism to reach their full potential through 
-                compassionate, evidence-based ABA therapy that celebrates each child's unique journey.
+                Empowering children with autism to reach their full potential through
+                compassionate, family-centered ABA therapy that celebrates each child's unique journey.
               </p>
 
               <div className="footer-credentials">
                 <div className="credential-item">
-                  <ShieldCheckIcon className="credential-icon" />
-                  <span>BCBA Certified</span>
+                  <HeartIcon className="credential-icon" />
+                  <span>Family-Centered</span>
                 </div>
                 <div className="credential-item">
                   <StarIcon className="credential-icon" />
-                  <span>Evidence-Based</span>
+                  <span>Home-Based</span>
                 </div>
                 <div className="credential-item">
-                  <HeartIcon className="credential-icon" />
-                  <span>Family-Centered</span>
+                  <ShieldCheckIcon className="credential-icon" />
+                  <span>Personalized Care</span>
                 </div>
               </div>
 

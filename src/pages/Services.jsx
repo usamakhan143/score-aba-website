@@ -36,19 +36,10 @@ const Services = () => {
                 <span className="headline-accent">Tailored to Your Child's Unique Needs</span>
               </h1>
               <p className="services-hero-subtitle">
-                Evidence-based Applied Behavior Analysis therapy delivered through personalized 
+                Compassionate Applied Behavior Analysis therapy delivered through personalized
                 programs designed to maximize your child's potential and support your family's journey.
               </p>
               <div className="services-hero-stats">
-                <div className="hero-stat-item">
-                  <div className="stat-icon-container">
-                    <CheckCircleIcon className="stat-icon" />
-                  </div>
-                  <div className="stat-content">
-                    <span className="stat-number">BCBA</span>
-                    <span className="stat-label">Certified</span>
-                  </div>
-                </div>
                 <div className="hero-stat-item">
                   <div className="stat-icon-container">
                     <HomeIcon className="stat-icon" />
@@ -97,9 +88,9 @@ const Services = () => {
               <div className="service-card-content">
                 <h3 className="service-card-title">In-Home ABA Therapy (Atlanta)</h3>
                 <p className="service-card-description">
-                  Premier <strong>in-home ABA therapy Atlanta</strong> services delivered by BCBA certified therapists.
+                  Premier <strong>in-home ABA therapy Atlanta</strong> services delivered by experienced therapists.
                   One-on-one therapy sessions in the comfort and familiarity of your own home throughout
-                  Atlanta, Georgia. Our evidence-based approach helps children develop essential skills in their natural environment.
+                  Atlanta, Georgia. Our family-centered approach helps children develop essential skills in their natural environment.
                 </p>
                 <div className="service-features">
                   <div className="feature-item">
@@ -140,7 +131,7 @@ const Services = () => {
                 <h3 className="service-card-title">Behavior Intervention Plans</h3>
                 <p className="service-card-description">
                   Comprehensive behavior intervention plans designed specifically for your child's unique needs.
-                  Our BCBA team develops individualized strategies to address challenging behaviors and
+                  Our expert team develops individualized strategies to address challenging behaviors and
                   promote positive skill development in your Atlanta home.
                 </p>
                 <div className="service-features">
@@ -154,7 +145,7 @@ const Services = () => {
                   </div>
                   <div className="feature-item">
                     <CheckCircleIcon className="feature-check" />
-                    <span>Evidence-based interventions</span>
+                    <span>Family-centered interventions</span>
                   </div>
                   <div className="feature-item">
                     <CheckCircleIcon className="feature-check" />
@@ -182,7 +173,7 @@ const Services = () => {
                 <h3 className="service-card-title">Developmental Assessments</h3>
                 <p className="service-card-description">
                   Comprehensive developmental assessments conducted in your Atlanta home to identify
-                  your child's strengths and areas for growth. Our BCBA certified team provides
+                  your child's strengths and areas for growth. Our experienced team provides
                   detailed evaluations that inform personalized treatment planning.
                 </p>
                 <div className="service-features">
@@ -268,7 +259,7 @@ const Services = () => {
         <div className="premium-container">
           <div className="process-header">
             <h2 className="premium-section-title center white">
-              Our Evidence-Based Process
+              Our Family-Centered Process
             </h2>
             <p className="premium-subtitle center white">
               A systematic approach to ABA therapy that ensures consistent progress 
@@ -299,7 +290,7 @@ const Services = () => {
                 </div>
                 <h3 className="process-step-title">Individualized Program Design</h3>
                 <p className="process-step-description">
-                  Development of evidence-based intervention strategies and measurable goals 
+                  Development of family-centered intervention strategies and measurable goals
                   that align with your family's priorities and your child's developmental needs.
                 </p>
               </div>
@@ -377,7 +368,7 @@ const Services = () => {
               </div>
               <h3 className="specialization-title">Behavior Management</h3>
               <p className="specialization-description">
-                Evidence-based strategies to address challenging behaviors and promote 
+                Family-centered strategies to address challenging behaviors and promote
                 positive behavioral changes that improve quality of life.
               </p>
             </div>
@@ -453,11 +444,11 @@ const Services = () => {
             <div className="services-cta-trust">
               <div className="trust-item">
                 <ShieldCheckIcon className="trust-icon" />
-                <span>BCBA Certified Team</span>
+                <span>Expert Care Team</span>
               </div>
               <div className="trust-item">
                 <StarIcon className="trust-icon" />
-                <span>Evidence-Based Approach</span>
+                <span>Family-Centered Approach</span>
               </div>
               <div className="trust-item">
                 <HeartIcon className="trust-icon" />

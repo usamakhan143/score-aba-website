@@ -11,8 +11,8 @@ const FeaturesSection = () => {
     },
     {
       icon: ShieldCheckIcon,
-      title: "BCBA Certified Therapists",
-      description: "Our entire clinical team is Board Certified in Behavior Analysis (BCBA) with extensive experience in autism intervention."
+      title: "Experienced Therapists",
+      description: "Our entire clinical team has extensive experience in autism intervention and compassionate care delivery."
     },
     {
       icon: DocumentTextIcon,

@@ -29,10 +29,10 @@ const BlogDetail = () => {
       tags: ["Getting Started", "Assessment", "Family Support"],
       content: `
         <h2>Understanding ABA Therapy: The Foundation</h2>
-        <p>Applied Behavior Analysis (ABA) is a evidence-based therapy approach that has helped thousands of children with autism develop essential life skills. As a parent, taking the first step towards ABA therapy can feel overwhelming, but understanding the process will help you feel more confident in your decision.</p>
+        <p>Applied Behavior Analysis (ABA) is a family-centered therapy approach that has helped thousands of children with autism develop essential life skills. As a parent, taking the first step towards ABA therapy can feel overwhelming, but understanding the process will help you feel more confident in your decision.</p>
         
         <h3>What to Expect During Initial Assessment</h3>
-        <p>The initial assessment is a comprehensive evaluation that typically takes 2-4 hours. During this time, our BCBA will:</p>
+        <p>The initial assessment is a comprehensive evaluation that typically takes 2-4 hours. During this time, our therapist will:</p>
         <ul>
           <li>Observe your child in their natural environment</li>
           <li>Conduct standardized assessments</li>
@@ -53,7 +53,7 @@ const BlogDetail = () => {
         <p>Family involvement is crucial for the success of ABA therapy. We work closely with parents and caregivers to ensure that therapeutic strategies are implemented consistently across all environments.</p>
         
         <blockquote>
-          "The most successful ABA programs are those where families are actively engaged and supported throughout the process." - Dr. Emily Rodriguez, BCBA-D
+          "The most successful ABA programs are those where families are actively engaged and supported throughout the process." - Dr. Emily Rodriguez
         </blockquote>
         
         <h3>Getting Started: Your Next Steps</h3>
@@ -70,7 +70,7 @@ const BlogDetail = () => {
     },
     {
       id: 2,
-      title: "5 Evidence-Based Benefits of ABA Therapy for Children with Autism",
+      title: "5 Family-Centered Benefits of ABA Therapy for Children with Autism",
       category: "ABA Therapy Tips",
       excerpt: "Discover the scientifically-proven advantages of Applied Behavior Analysis and how it can transform your child's development across multiple domains.",
       author: "James Wilson",
@@ -123,7 +123,7 @@ const BlogDetail = () => {
         </ul>
         
         <blockquote>
-          "The research is clear: early, intensive ABA intervention can dramatically improve outcomes for children with autism." - James Wilson, BCBA
+          "The research is clear: early, intensive ABA intervention can dramatically improve outcomes for children with autism." - James Wilson
         </blockquote>
         
         <p>These benefits are most pronounced when ABA therapy is started early and implemented consistently. Every child's journey is unique, but the evidence strongly supports ABA as an effective intervention for autism spectrum disorder.</p>
@@ -270,7 +270,7 @@ const BlogDetail = () => {
         </ul>
         
         <blockquote>
-          "Understanding your child's sensory needs is like having a roadmap to their behavior and learning preferences." - Dr. Emily Rodriguez, BCBA-D
+          "Understanding your child's sensory needs is like having a roadmap to their behavior and learning preferences." - Dr. Emily Rodriguez
         </blockquote>
         
         <h3>When to Seek Professional Help</h3>
@@ -376,7 +376,7 @@ const BlogDetail = () => {
         <p>We used pictures, symbols, and visual schedules to support Emma's understanding and expression.</p>
         
         <blockquote>
-          "Seeing Emma develop from a frustrated, nonverbal child to a confident communicator has been one of the most rewarding experiences in my career." - David Chen, BCBA
+          "Seeing Emma develop from a frustrated, nonverbal child to a confident communicator has been one of the most rewarding experiences in my career." - David Chen
         </blockquote>
         
         <h3>Current Progress and Future Goals</h3>
@@ -389,7 +389,7 @@ const BlogDetail = () => {
           <li>Participates successfully in her mainstream classroom</li>
         </ul>
         
-        <p>Emma's story demonstrates that with the right intervention, consistency, and family support, significant communication gains are possible. Every child's journey is unique, but Emma's progress shows what's achievable with evidence-based ABA therapy.</p>
+        <p>Emma's story demonstrates that with the right intervention, consistency, and family support, significant communication gains are possible. Every child's journey is unique, but Emma's progress shows what's achievable with family-centered ABA therapy.</p>
       `
     },
     {
@@ -417,7 +417,7 @@ const BlogDetail = () => {
           <li>Guides treatment decisions</li>
         </ul>
         
-        <h4>2. Evidence-Based Decision Making</h4>
+        <h4>2. Family-Centered Decision Making</h4>
         <p>Continuous data collection allows therapists to:</p>
         <ul>
           <li>Modify interventions that aren't working</li>
@@ -517,7 +517,7 @@ const BlogDetail = () => {
         </ul>
         
         <blockquote>
-          "Data doesn't lie. It shows us exactly what's working and what needs to change, ensuring every child gets the most effective intervention possible." - James Wilson, BCBA
+          "Data doesn't lie. It shows us exactly what's working and what needs to change, ensuring every child gets the most effective intervention possible." - James Wilson
         </blockquote>
         
         <h3>Supporting Data Collection at Home</h3>
@@ -536,7 +536,7 @@ const BlogDetail = () => {
       id: 7,
       title: "Preparing for School: Transition Strategies for Children with Autism",
       category: "Educational",
-      excerpt: "School transitions can be challenging. Learn evidence-based strategies to help your child succeed in educational environments.",
+      excerpt: "School transitions can be challenging. Learn family-centered strategies to help your child succeed in educational environments.",
       author: "Maria Santos",
       date: "March 5, 2024",
       readTime: "8 min read",

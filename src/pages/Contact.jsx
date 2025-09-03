@@ -50,7 +50,7 @@ const Contact = () => {
     },
     {
       question: "What should I expect during the initial consultation?",
-      answer: "During your initial consultation, our BCBA will meet with your family to discuss your child's strengths, challenges, and goals. We'll explain our approach, answer your questions, and outline the assessment process. This typically takes 60-90 minutes."
+      answer: "During your initial consultation, our therapist will meet with your family to discuss your child's strengths, challenges, and goals. We'll explain our approach, answer your questions, and outline the assessment process. This typically takes 60-90 minutes."
     },
     {
       question: "Do you accept insurance?",
@@ -84,7 +84,7 @@ const Contact = () => {
               </h1>
               <p className="contact-hero-subtitle">
                 Ready to unlock your child's potential with in-home ABA therapy? Our Atlanta team of
-                BCBA certified professionals is here to guide you through every step of the ABA therapy process.
+                experienced professionals is here to guide you through every step of the ABA therapy process.
               </p>
               
               <div className="contact-hero-stats">
@@ -111,8 +111,8 @@ const Contact = () => {
                     <ShieldCheckIcon className="stat-icon" />
                   </div>
                   <div className="stat-content">
-                    <span className="stat-number">BCBA</span>
-                    <span className="stat-label">Certified Team</span>
+                    <span className="stat-number">Expert</span>
+                    <span className="stat-label">Care Team</span>
                   </div>
                 </div>
               </div>
@@ -391,14 +391,14 @@ const Contact = () => {
             </h2>
             <p className="contact-cta-subtext">
               Join families in Atlanta who have benefited from
-              our evidence-based home-based ABA therapy programs.
+              our family-centered home-based ABA therapy programs.
             </p>
             
             
             <div className="contact-cta-trust">
               <div className="trust-item">
                 <ShieldCheckIcon className="trust-icon" />
-                <span>BCBA Certified Professionals</span>
+                <span>Expert Care Professionals</span>
               </div>
               <div className="trust-item">
                 <StarIcon className="trust-icon" />

@@ -221,7 +221,7 @@ const Home = () => {
                 className="ultra-hero-subheadline"
                 variants={itemVariants}
               >
-                Transform your child's potential with evidence-based ABA therapy delivered by certified professionals. 
+                Transform your child's potential with family-centered ABA therapy delivered by experienced professionals.
                 Experience personalized care that adapts to your family's unique journey toward measurable progress.
               </motion.p>
 
@@ -262,9 +262,9 @@ const Home = () => {
                 variants={itemVariants}
               >
                 {[
-                  { icon: ShieldCheckIcon, text: "BCBA Certified" },
-                  { icon: StarIcon, text: "Evidence-Based" },
-                  { icon: HeartIcon, text: "Family-Centered" }
+                  { icon: HomeIcon, text: "Home-Based" },
+                  { icon: HeartIcon, text: "Family-Centered" },
+                  { icon: UsersIcon, text: "Personalized Care" }
                 ].map((item, index) => (
                   <motion.div
                     key={index}
@@ -308,8 +308,8 @@ const Home = () => {
                   <div className="ultra-progress-indicator">
                     <div className="ultra-progress-circle">
                       <div className="ultra-progress-text">
-                        <span className="ultra-progress-number">95%</span>
-                        <span className="ultra-progress-label">Success Rate</span>
+                        <span className="ultra-progress-number">ABA</span>
+                        <span className="ultra-progress-label">Therapy</span>
                       </div>
                     </div>
                   </div>
@@ -395,7 +395,7 @@ const Home = () => {
             {[
               { number: '500+', label: 'Families Served' },
               { number: '50k+', label: 'Therapy Hours' },
-              { number: '95%', label: 'Satisfaction' },
+              { number: 'Expert', label: 'Care Team' },
               { number: '50+', label: 'Clinicians' }
             ].map((metric, index) => (
               <motion.div
@@ -456,9 +456,9 @@ const Home = () => {
             whileInView="visible"
           >
             {[
-              { icon: BeakerIcon, title: "Evidence-Based Excellence", desc: "Our interventions are grounded in decades of peer-reviewed research and proven methodologies" },
-              { icon: ShieldCheckIcon, title: "Board-Certified Experts", desc: "Work with experienced BCBAs and RBTs who are passionate about your child's success" },
-              { icon: HomeIcon, title: "Flexible Care Settings", desc: "Choose from home, clinic, school, or community-based therapy options that fit your lifestyle" },
+              { icon: BeakerIcon, title: "Family-Centered Excellence", desc: "Our interventions are grounded in compassionate care and proven methodologies" },
+              { icon: ShieldCheckIcon, title: "Expert Care Team", desc: "Work with experienced therapists who are passionate about your child's success" },
+              { icon: HomeIcon, title: "Home-Based Care Settings", desc: "Therapy delivered in the comfort and familiarity of your own home environment" },
               { icon: UsersIcon, title: "Comprehensive Family Support", desc: "Receive ongoing parent training and support to reinforce progress beyond therapy sessions" },
               { icon: ClipboardDocumentCheckIcon, title: "Data-Driven Progress", desc: "Track meaningful improvements with transparent reporting and regular progress assessments" }
             ].map((feature, index) => (
@@ -623,7 +623,7 @@ const Home = () => {
             >
               <h2 className="ultra-section-title">Personalized ABA Therapy That Works</h2>
               <p className="ultra-subtitle">
-                Our evidence-based approach combines cutting-edge research with compassionate care to help children with autism reach their full potential.
+                Our family-centered approach combines compassionate care with proven methodologies to help children with autism reach their full potential.
               </p>
               <div className="therapy-benefits-grid">
                 <div className="therapy-benefit-item">
@@ -665,8 +665,8 @@ const Home = () => {
                   />
                   <div className="therapy-image-overlay">
                     <div className="therapy-stat-badge">
-                      <span className="stat-number">95%</span>
-                      <span className="stat-label">Family Satisfaction</span>
+                      <span className="stat-number">Home</span>
+                      <span className="stat-label">Based Care</span>
                     </div>
                   </div>
                 </div>
@@ -751,7 +751,7 @@ const Home = () => {
             >
               <h2 className="ultra-section-title">Specialized Support for Every Child</h2>
               <p className="ultra-subtitle">
-                Our team of certified professionals provides comprehensive support tailored to each child's developmental needs and family goals.
+                Our team of experienced professionals provides comprehensive support tailored to each child's developmental needs and family goals.
               </p>
 
               <div className="support-features-list">
@@ -760,8 +760,8 @@ const Home = () => {
                     <AcademicCapIcon className="feature-icon" />
                   </div>
                   <div className="support-feature-content">
-                    <h3>BCBA-Supervised Programs</h3>
-                    <p>All therapy programs are designed and overseen by Board Certified Behavior Analysts with extensive experience in autism intervention.</p>
+                    <h3>Expert-Supervised Programs</h3>
+                    <p>All therapy programs are designed and overseen by experienced professionals with extensive experience in autism intervention.</p>
                   </div>
                 </div>
 

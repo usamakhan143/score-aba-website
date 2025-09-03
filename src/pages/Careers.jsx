@@ -40,14 +40,14 @@ const Careers = () => {
                 <span className="headline-accent">Where Compassion Meets Excellence</span>
               </h1>
               <p className="careers-hero-subtitle">
-                Be part of a team that transforms lives through evidence-based ABA therapy. 
-                We're seeking passionate professionals who share our commitment to helping 
+                Be part of a team that transforms lives through family-centered ABA therapy.
+                We're seeking passionate professionals who share our commitment to helping
                 children with autism reach their fullest potential.
               </p>
               <div className="careers-hero-stats">
                 <div className="hero-stat-box">
                   <div className="stat-number">Expert</div>
-                  <div className="stat-label">BCBA Team</div>
+                  <div className="stat-label">Care Team</div>
                 </div>
                 <div className="hero-stat-box">
                   <div className="stat-number">Home</div>
@@ -103,8 +103,8 @@ const Careers = () => {
               </div>
               <h3 className="value-title">Clinical Excellence</h3>
               <p className="value-description">
-                We maintain the highest standards of clinical practice through continuous 
-                learning, evidence-based approaches, and commitment to professional growth.
+                We maintain the highest standards of clinical practice through continuous
+                learning, family-centered approaches, and commitment to professional growth.
               </p>
             </div>
 
@@ -154,7 +154,7 @@ const Careers = () => {
                 <div className="job-featured-badge">Featured</div>
               </div>
               <div className="job-card-content">
-                <h3 className="job-title">Board Certified Behavior Analyst (BCBA)</h3>
+                <h3 className="job-title">Senior Behavior Analyst</h3>
                 <div className="job-meta">
                   <div className="job-meta-item">
                     <MapPinIcon className="meta-icon" />
@@ -176,7 +176,7 @@ const Careers = () => {
                 <div className="job-requirements">
                   <h4 className="requirements-title">Key Requirements:</h4>
                   <ul className="requirements-list">
-                    <li>BCBA certification required</li>
+                    <li>Behavior analysis experience required</li>
                     <li>2+ years of clinical experience</li>
                     <li>Experience with early intervention preferred</li>
                     <li>Strong leadership and communication skills</li>
@@ -214,7 +214,7 @@ const Careers = () => {
                   </div>
                 </div>
                 <p className="job-description">
-                  Provide direct home-based ABA therapy services under BCBA supervision. Work one-on-one with
+                  Provide direct home-based ABA therapy services under clinical supervision. Work one-on-one with
                   children in their homes to implement behavior intervention plans and collect data on progress.
                 </p>
                 <div className="job-requirements">

@@ -28,7 +28,7 @@ const Blog = () => {
   const blogPosts = [
     {
       id: 2,
-      title: "5 Evidence-Based Benefits of ABA Therapy for Children with Autism",
+      title: "5 Family-Centered Benefits of ABA Therapy for Children with Autism",
       category: "ABA Therapy Tips",
       excerpt: "Discover the scientifically-proven advantages of Applied Behavior Analysis and how it can transform your child's development across multiple domains.",
       author: "James Wilson",
@@ -85,7 +85,7 @@ const Blog = () => {
       id: 7,
       title: "Preparing for School: Transition Strategies for Children with Autism",
       category: "Educational",
-      excerpt: "School transitions can be challenging. Learn evidence-based strategies to help your child succeed in educational environments.",
+      excerpt: "School transitions can be challenging. Learn family-centered strategies to help your child succeed in educational environments.",
       author: "Maria Santos",
       date: "March 5, 2024",
       readTime: "8 min read",
@@ -114,7 +114,7 @@ const Blog = () => {
                 <span className="headline-accent">Expert Knowledge for Every Family</span>
               </h1>
               <p className="blog-hero-subtitle">
-                Discover evidence-based strategies, inspiring success stories, and practical guidance
+                Discover family-centered strategies, inspiring success stories, and practical guidance
                 from our team of ABA professionals to support your child's journey.
               </p>
             </div>
@@ -273,10 +273,6 @@ const Blog = () => {
                 <div className="stat-item">
                   <div className="stat-number">Weekly</div>
                   <div className="stat-label">Updates</div>
-                </div>
-                <div className="stat-item">
-                  <div className="stat-number">100%</div>
-                  <div className="stat-label">Free</div>
                 </div>
               </div>
             </div>

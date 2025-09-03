@@ -1,12 +1,14 @@
 import React, { Suspense, lazy } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { 
+import {
   ShieldCheckIcon,
   StarIcon,
   HeartIcon,
   RocketLaunchIcon,
-  SparklesIcon
+  SparklesIcon,
+  HomeIcon,
+  UsersIcon
 } from '@heroicons/react/24/outline';
 
 // Lazy load heavy components
@@ -45,7 +47,7 @@ const OptimizedHome = () => {
 
               <p className="ultra-hero-subheadline">
                 Personalized autism therapy delivered in the comfort of your Atlanta home.
-                Our BCBA certified professionals provide evidence-based in-home ABA therapy
+                Our experienced professionals provide compassionate in-home ABA therapy
                 tailored to your child's unique needs and your family's schedule.
               </p>
 
@@ -67,9 +69,9 @@ const OptimizedHome = () => {
 
               <div className="ultra-trust-indicators">
                 {[
-                  { icon: ShieldCheckIcon, text: "BCBA Certified" },
-                  { icon: StarIcon, text: "Evidence-Based" },
-                  { icon: HeartIcon, text: "Family-Centered" }
+                  { icon: HomeIcon, text: "Home-Based" },
+                  { icon: HeartIcon, text: "Family-Centered" },
+                  { icon: UsersIcon, text: "Personalized Care" }
                 ].map((item, index) => (
                   <div key={index} className="ultra-trust-item">
                     <item.icon className="ultra-trust-icon" />
@@ -94,7 +96,7 @@ const OptimizedHome = () => {
                     <div className="ultra-progress-circle">
                 <div className="ultra-progress-text">
                   <span className="ultra-progress-number">ABA</span>
-                  <span className="ultra-progress-label">Certified</span>
+                  <span className="ultra-progress-label">Therapy</span>
                 </div>
               </div>
                   </div>
@@ -117,7 +119,7 @@ const OptimizedHome = () => {
           <div className="seo-intro-content">
             <p className="seo-intro-text">
               Score ABA is Atlanta's leading provider of <strong>in-home ABA therapy</strong> services for children with autism.
-              Our specialized <strong>ABA therapy Atlanta</strong> programs bring certified BCBA therapists directly to your home,
+              Our specialized <strong>ABA therapy Atlanta</strong> programs bring caring therapists directly to your home,
               providing personalized <strong>autism therapy Georgia</strong> families trust. We focus exclusively on home-based
               interventions that help children develop essential skills in their natural environment while supporting families
               throughout their journey.
@@ -137,11 +139,9 @@ const OptimizedHome = () => {
         <div className="premium-container">
           <div className="ultra-trust-grid">
             {[
-              "BCBA Certified Therapists",
-              "Evidence-Based Approach", 
-              "Personalized Treatment Plans",
-              "Family Support Programs",
-              "Progress Tracking Technology"
+              "Home-Based Therapy",
+              "Family-Centered Approach",
+              "Family Support Programs"
             ].map((item, index) => (
               <div key={index} className="ultra-trust-pill">
                 {item}
@@ -162,7 +162,7 @@ const OptimizedHome = () => {
         <div className="premium-container">
           <div className="ultra-metrics-grid">
             {[
-              { number: "Expert", label: "BCBA Team" },
+              { number: "Expert", label: "Care Team" },
               { number: "Quality", label: "Care Focus" },
               { number: "Home", label: "Based Services" },
               { number: "Family", label: "Support" }
@@ -189,7 +189,7 @@ const OptimizedHome = () => {
             <div className="therapy-programs-text">
               <h2 className="ultra-section-title">Personalized Therapy Programs</h2>
               <p className="ultra-subtitle">
-                Our evidence-based programs are tailored to each child's unique needs,
+                Our family-centered programs are tailored to each child's unique needs,
                 fostering growth in communication, social skills, and independence.
               </p>
               <div className="therapy-features-list">
