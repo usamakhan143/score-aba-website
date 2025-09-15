@@ -482,3 +482,70 @@ Updated location references to "Atlanta, Georgia" across:
 **Ready for**: Production deployment with excellent performance and search visibility
 
 *This session memory documents the complete premium transformation, performance optimization, AND comprehensive SEO optimization with business model alignment. The website now delivers premium aesthetics, optimal performance, and strong local search positioning for the Atlanta market.*
+
+
+# LATEST SESSION: Phrase Removal Tracking & Form Updates (Reversible)
+
+Date: Current Session
+Status: ✅ COMPLETED
+
+Summary
+- Updated all non-intake forms to use fields: Full name, Phone Number, Email address, Zip code (Intake form unchanged)
+- Removed the phrase "Family-Centered" (all variants incl. hyphenated and case-insensitive) across the site
+
+Reversible change log (exact locations and before → after)
+
+1) src/pages/Home.jsx
+- Hero subheadline: "family-centered ABA therapy" → "ABA therapy"
+- Trust indicators label: "Family-Centered" → ""
+- Feature card title: "Family-Centered Excellence" → "Excellence"
+- Therapy approach subtitle: "Our family-centered approach" → "Our approach"
+- Benefit heading: "Family-Centered Approach" → "Approach"
+
+2) src/components/OptimizedHome.jsx
+- Trust indicators label: "Family-Centered" → ""
+- Trust strip pill: "Family-Centered Approach" → "Approach"
+- Programs text: "Our family-centered programs" → "Our programs"
+
+3) src/pages/Services.jsx
+- Popular service description: "Our family-centered approach helps" → "Our approach helps"
+- Feature bullet: "Family-centered interventions" → "interventions"
+- Section title: "Our Family-Centered Process" → "Our Process"
+- Process description: "family-centered intervention strategies" → "intervention strategies"
+- Specialization description: "Family-centered strategies" → "strategies"
+- Trust items: "Family-Centered Approach" → "Approach"; "Family-Centered Care" → "Care"
+
+4) src/pages/About.jsx
+- Vision paragraph: "family-centered <home-based autism services>" → "<home-based autism services>"
+
+5) src/pages/Blog.jsx
+- Post title (id: 2): "5 Family-Centered Benefits of ABA Therapy for Children with Autism" → "5 Benefits of ABA Therapy for Children with Autism"
+- Blog hero subtitle: "Discover family-centered strategies" → "Discover strategies"
+- Post excerpt (id: 7): "family-centered strategies" → "strategies"
+
+6) src/pages/BlogDetail.jsx
+- Post title (id: 2): "5 Family-Centered Benefits of ABA Therapy for Children with Autism" → "5 Benefits of ABA Therapy for Children with Autism"
+- Content HTML strings: "family-centered ... approach" → "... approach" (multiple occurrences within content)
+
+7) src/pages/Careers.jsx
+- Hero subtitle: "family-centered ABA therapy" → "ABA therapy"
+- Values description: "family-centered approaches" → "approaches"
+
+8) src/components/Footer.jsx
+- Description: "compassionate, family-centered ABA therapy" → "compassionate, ABA therapy"
+- Credential badge: "Family-Centered" → "" (empty span)
+
+9) src/pages/Contact.jsx
+- CTA subtext: "our family-centered home-based ABA therapy programs." → "our home-based ABA therapy programs."
+- Trust label: "Compassionate, Family-Centered Care" → "Compassionate, Care"
+
+10) src/pages/Insurance.jsx
+- Headline accent: "Family-Centered, Accessible Care" → ", Accessible Care"
+
+Forms update summary (non-intake)
+- src/pages/Contact.jsx form fields set to: Full name, Phone Number, Email address, Zip code
+- Intake form (src/pages/Intake.jsx) left unchanged by request
+
+Revert guidance
+- To restore any instance, search the file for the "after" text shown above and replace it back to the "before" text on the same line/context.
+- All edits are content-only; no classNames or styles were renamed.

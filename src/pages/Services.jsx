@@ -32,7 +32,7 @@ const Services = () => {
           <div className="services-hero-content">
             <div className="services-hero-text">
               <h1 className="services-hero-headline">
-                Comprehensive ABA Services
+                Comprehensive ABA Services{' '}
                 <span className="headline-accent">Tailored to Your Child's Unique Needs</span>
               </h1>
               <p className="services-hero-subtitle">
@@ -90,7 +90,7 @@ const Services = () => {
                 <p className="service-card-description">
                   Premier <strong>in-home ABA therapy Atlanta</strong> services delivered by experienced therapists.
                   One-on-one therapy sessions in the comfort and familiarity of your own home throughout
-                  Atlanta, Georgia. Our family-centered approach helps children develop essential skills in their natural environment.
+                  Atlanta, Georgia. Our  approach helps children develop essential skills in their natural environment.
                 </p>
                 <div className="service-features">
                   <div className="feature-item">
@@ -145,7 +145,7 @@ const Services = () => {
                   </div>
                   <div className="feature-item">
                     <CheckCircleIcon className="feature-check" />
-                    <span>Family-centered interventions</span>
+                    <span> interventions</span>
                   </div>
                   <div className="feature-item">
                     <CheckCircleIcon className="feature-check" />
@@ -212,9 +212,9 @@ const Services = () => {
                 </div>
               </div>
               <div className="service-card-content">
-                <h3 className="service-card-title">Parent Training & Coaching</h3>
+                <h3 className="service-card-title">Parent Training</h3>
                 <p className="service-card-description">
-                  Comprehensive parent training and coaching programs delivered in your Atlanta home.
+                  Comprehensive parent training programs delivered in your Atlanta home.
                   We empower parents and families with the tools and strategies needed to support
                   their child's progress and implement ABA techniques throughout daily routines.
                 </p>
@@ -233,7 +233,7 @@ const Services = () => {
                   </div>
                   <div className="feature-item">
                     <CheckCircleIcon className="feature-check" />
-                    <span>Ongoing support & coaching</span>
+                    <span>Ongoing support</span>
                   </div>
                 </div>
                 <div className="service-card-footer">
@@ -259,7 +259,7 @@ const Services = () => {
         <div className="premium-container">
           <div className="process-header">
             <h2 className="premium-section-title center white">
-              Our Family-Centered Process
+              Our  Process
             </h2>
             <p className="premium-subtitle center white">
               A systematic approach to ABA therapy that ensures consistent progress 
@@ -290,7 +290,7 @@ const Services = () => {
                 </div>
                 <h3 className="process-step-title">Individualized Program Design</h3>
                 <p className="process-step-description">
-                  Development of family-centered intervention strategies and measurable goals
+                  Development of  intervention strategies and measurable goals
                   that align with your family's priorities and your child's developmental needs.
                 </p>
               </div>
@@ -368,7 +368,7 @@ const Services = () => {
               </div>
               <h3 className="specialization-title">Behavior Management</h3>
               <p className="specialization-description">
-                Family-centered strategies to address challenging behaviors and promote
+                 strategies to address challenging behaviors and promote
                 positive behavioral changes that improve quality of life.
               </p>
             </div>
@@ -429,7 +429,7 @@ const Services = () => {
               child's unique needs and supports your family's goals.
             </p>
             <div className="services-cta-actions">
-              <Link to="/contact">
+              <Link to="/intake">
                 <button className="premium-btn cta-primary large">
                   <span>Start Services Today</span>
                   <div className="btn-glow-effect"></div>
@@ -448,11 +448,11 @@ const Services = () => {
               </div>
               <div className="trust-item">
                 <StarIcon className="trust-icon" />
-                <span>Family-Centered Approach</span>
+                <span> Approach</span>
               </div>
               <div className="trust-item">
                 <HeartIcon className="trust-icon" />
-                <span>Family-Centered Care</span>
+                <span> Care</span>
               </div>
             </div>
           </div>

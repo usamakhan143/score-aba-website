@@ -44,7 +44,7 @@ const Header = () => {
         </nav>
 
         <div className="header-actions">
-          <Link to="/contact" className="header-cta-btn">
+          <Link to="/intake" className="header-cta-btn">
             <span>Get Started</span>
           </Link>
 

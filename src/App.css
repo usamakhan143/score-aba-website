@@ -10143,6 +10143,12 @@ html {
   align-items: start;
 }
 
+/* Intake centering */
+.intake-center-wrap {
+  display: flex;
+  justify-content: center;
+}
+
 /* Premium Contact Form */
 .premium-contact-form-wrapper {
   background: var(--premium-white);

@@ -19,10 +19,7 @@ const Contact = () => {
     name: '',
     email: '',
     phone: '',
-    childAge: '',
-    serviceType: '',
-    urgency: '',
-    message: ''
+    zip: ''
   });
 
   const [expandedFaq, setExpandedFaq] = useState(null);
@@ -79,7 +76,7 @@ const Contact = () => {
           <div className="contact-hero-content">
             <div className="contact-hero-text">
               <h1 className="contact-hero-headline">
-                Contact Our Atlanta Team
+                Contact Our Atlanta Team{' '}
                 <span className="headline-accent">Serving Atlanta, Georgia and Surrounding Areas</span>
               </h1>
               <p className="contact-hero-subtitle">
@@ -95,15 +92,6 @@ const Contact = () => {
                   <div className="stat-content">
                     <span className="stat-number">24hr</span>
                     <span className="stat-label">Response Time</span>
-                  </div>
-                </div>
-                <div className="contact-stat-item">
-                  <div className="stat-icon-wrapper">
-                    <CalendarDaysIcon className="stat-icon" />
-                  </div>
-                  <div className="stat-content">
-                    <span className="stat-number">Free</span>
-                    <span className="stat-label">Consultation</span>
                   </div>
                 </div>
                 <div className="contact-stat-item">
@@ -131,14 +119,14 @@ const Contact = () => {
               <div className="contact-form-header">
                 <h2 className="form-title">Get Started Today</h2>
                 <p className="form-subtitle">
-                  Complete this form and our team will reach out to schedule your free consultation.
+                  Complete this form and our team will reach out to schedule your intake call.
                 </p>
               </div>
               
               <form className="premium-contact-form" onSubmit={handleSubmit}>
                 <div className="form-row">
                   <div className="premium-form-group">
-                    <label htmlFor="name" className="form-label">Parent/Guardian Name *</label>
+                    <label htmlFor="name" className="form-label">Full name *</label>
                     <input
                       type="text"
                       id="name"
@@ -152,22 +140,6 @@ const Contact = () => {
                   </div>
                   
                   <div className="premium-form-group">
-                    <label htmlFor="email" className="form-label">Email Address *</label>
-                    <input
-                      type="email"
-                      id="email"
-                      name="email"
-                      value={formData.email}
-                      onChange={handleChange}
-                      className="premium-form-input"
-                      placeholder="your.email@example.com"
-                      required
-                    />
-                  </div>
-                </div>
-                
-                <div className="form-row">
-                  <div className="premium-form-group">
                     <label htmlFor="phone" className="form-label">Phone Number *</label>
                     <input
                       type="tel"
@@ -180,76 +152,36 @@ const Contact = () => {
                       required
                     />
                   </div>
-                  
-                  <div className="premium-form-group">
-                    <label htmlFor="childAge" className="form-label">Child's Age</label>
-                    <select
-                      id="childAge"
-                      name="childAge"
-                      value={formData.childAge}
-                      onChange={handleChange}
-                      className="premium-form-select"
-                    >
-                      <option value="">Select age range</option>
-                      <option value="18months-3years">18 months - 3 years</option>
-                      <option value="3-6years">3 - 6 years</option>
-                      <option value="6-12years">6 - 12 years</option>
-                      <option value="12-18years">12 - 18 years</option>
-                      <option value="18plus">18+ years</option>
-                    </select>
-                  </div>
                 </div>
                 
                 <div className="form-row">
                   <div className="premium-form-group">
-                    <label htmlFor="serviceType" className="form-label">Service Interest</label>
-                    <select
-                      id="serviceType"
-                      name="serviceType"
-                      value={formData.serviceType}
+                    <label htmlFor="email" className="form-label">Email address *</label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      value={formData.email}
                       onChange={handleChange}
-                      className="premium-form-select"
-                    >
-                      <option value="">Select service type</option>
-                      <option value="in-home">In-Home ABA Therapy (Atlanta)</option>
-                      <option value="parent-training">Parent Training & Coaching</option>
-                      <option value="behavior-plans">Behavior Intervention Plans</option>
-                      <option value="assessment">Developmental Assessments</option>
-                      <option value="consultation">General Consultation</option>
-                    </select>
+                      className="premium-form-input"
+                      placeholder="your.email@example.com"
+                      required
+                    />
                   </div>
                   
                   <div className="premium-form-group">
-                    <label htmlFor="urgency" className="form-label">Timeline</label>
-                    <select
-                      id="urgency"
-                      name="urgency"
-                      value={formData.urgency}
+                    <label htmlFor="zip" className="form-label">Zip code *</label>
+                    <input
+                      type="text"
+                      id="zip"
+                      name="zip"
+                      value={formData.zip}
                       onChange={handleChange}
-                      className="premium-form-select"
-                    >
-                      <option value="">Select timeline</option>
-                      <option value="asap">As soon as possible</option>
-                      <option value="1-2weeks">Within 1-2 weeks</option>
-                      <option value="1month">Within 1 month</option>
-                      <option value="2-3months">2-3 months</option>
-                      <option value="just-exploring">Just exploring options</option>
-                    </select>
+                      className="premium-form-input"
+                      placeholder="e.g., 30301"
+                      required
+                    />
                   </div>
-                </div>
-                
-                <div className="premium-form-group">
-                  <label htmlFor="message" className="form-label">Tell Us About Your Child *</label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    rows="4"
-                    value={formData.message}
-                    onChange={handleChange}
-                    className="premium-form-textarea"
-                    placeholder="Please share any specific concerns, goals, or questions you have. This helps us prepare for our conversation with you."
-                    required
-                  ></textarea>
                 </div>
                 
                 <button type="submit" className="premium-btn form-submit-btn">
@@ -280,7 +212,7 @@ const Contact = () => {
                   </div>
                   <div className="contact-card-content">
                     <h3 className="contact-card-title">Call Us</h3>
-                    <p className="contact-card-text">(404) 555-0123</p>
+                    <p className="contact-card-text">+1 (315) 239-8008</p>
                     <p className="contact-card-sub">Mon-Fri, 8AM-6PM</p>
                   </div>
                 </div>
@@ -319,17 +251,7 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="emergency-contact">
-                <div className="emergency-header">
-                  <ClockIcon className="emergency-icon" />
-                  <h3 className="emergency-title">Crisis Support</h3>
-                </div>
-                <p className="emergency-text">
-                  For behavioral emergencies outside business hours, contact our crisis line at
-                  <strong> (404) 555-HELP</strong>
-                </p>
-              </div>
-            </div>
+                          </div>
           </div>
         </div>
       </section>
@@ -391,7 +313,7 @@ const Contact = () => {
             </h2>
             <p className="contact-cta-subtext">
               Join families in Atlanta who have benefited from
-              our family-centered home-based ABA therapy programs.
+              our  home-based ABA therapy programs.
             </p>
             
             
@@ -406,7 +328,7 @@ const Contact = () => {
               </div>
               <div className="trust-item">
                 <HeartIcon className="trust-icon" />
-                <span>Compassionate, Family-Centered Care</span>
+                <span>Compassionate,  Care</span>
               </div>
             </div>
           </div>

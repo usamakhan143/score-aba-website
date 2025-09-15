@@ -29,7 +29,7 @@ const BlogDetail = () => {
       tags: ["Getting Started", "Assessment", "Family Support"],
       content: `
         <h2>Understanding ABA Therapy: The Foundation</h2>
-        <p>Applied Behavior Analysis (ABA) is a family-centered therapy approach that has helped thousands of children with autism develop essential life skills. As a parent, taking the first step towards ABA therapy can feel overwhelming, but understanding the process will help you feel more confident in your decision.</p>
+        <p>Applied Behavior Analysis (ABA) is a  therapy approach that has helped thousands of children with autism develop essential life skills. As a parent, taking the first step towards ABA therapy can feel overwhelming, but understanding the process will help you feel more confident in your decision.</p>
         
         <h3>What to Expect During Initial Assessment</h3>
         <p>The initial assessment is a comprehensive evaluation that typically takes 2-4 hours. During this time, our therapist will:</p>
@@ -70,7 +70,7 @@ const BlogDetail = () => {
     },
     {
       id: 2,
-      title: "5 Family-Centered Benefits of ABA Therapy for Children with Autism",
+      title: "5  Benefits of ABA Therapy for Children with Autism",
       category: "ABA Therapy Tips",
       excerpt: "Discover the scientifically-proven advantages of Applied Behavior Analysis and how it can transform your child's development across multiple domains.",
       author: "James Wilson",
@@ -389,7 +389,7 @@ const BlogDetail = () => {
           <li>Participates successfully in her mainstream classroom</li>
         </ul>
         
-        <p>Emma's story demonstrates that with the right intervention, consistency, and family support, significant communication gains are possible. Every child's journey is unique, but Emma's progress shows what's achievable with family-centered ABA therapy.</p>
+        <p>Emma's story demonstrates that with the right intervention, consistency, and family support, significant communication gains are possible. Every child's journey is unique, but Emma's progress shows what's achievable with  ABA therapy.</p>
       `
     },
     {
@@ -417,7 +417,7 @@ const BlogDetail = () => {
           <li>Guides treatment decisions</li>
         </ul>
         
-        <h4>2. Family-Centered Decision Making</h4>
+        <h4>2.  Decision Making</h4>
         <p>Continuous data collection allows therapists to:</p>
         <ul>
           <li>Modify interventions that aren't working</li>
@@ -536,7 +536,7 @@ const BlogDetail = () => {
       id: 7,
       title: "Preparing for School: Transition Strategies for Children with Autism",
       category: "Educational",
-      excerpt: "School transitions can be challenging. Learn family-centered strategies to help your child succeed in educational environments.",
+      excerpt: "School transitions can be challenging. Learn  strategies to help your child succeed in educational environments.",
       author: "Maria Santos",
       date: "March 5, 2024",
       readTime: "8 min read",

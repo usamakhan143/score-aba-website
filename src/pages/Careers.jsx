@@ -36,11 +36,11 @@ const Careers = () => {
           <div className="careers-hero-content">
             <div className="careers-hero-text">
               <h1 className="careers-hero-headline">
-                Join Our Mission
+                Join Our Mission{' '}
                 <span className="headline-accent">Where Compassion Meets Excellence</span>
               </h1>
               <p className="careers-hero-subtitle">
-                Be part of a team that transforms lives through family-centered ABA therapy.
+                Be part of a team that transforms lives through  ABA therapy.
                 We're seeking passionate professionals who share our commitment to helping
                 children with autism reach their fullest potential.
               </p>
@@ -104,7 +104,7 @@ const Careers = () => {
               <h3 className="value-title">Clinical Excellence</h3>
               <p className="value-description">
                 We maintain the highest standards of clinical practice through continuous
-                learning, family-centered approaches, and commitment to professional growth.
+                learning,  approaches, and commitment to professional growth.
               </p>
             </div>
 

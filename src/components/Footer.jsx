@@ -44,13 +44,13 @@ const Footer = () => {
               
               <p className="footer-description">
                 Empowering children with autism to reach their full potential through
-                compassionate, family-centered ABA therapy that celebrates each child's unique journey.
+                compassionate,  ABA therapy that celebrates each child's unique journey.
               </p>
 
               <div className="footer-credentials">
                 <div className="credential-item">
                   <HeartIcon className="credential-icon" />
-                  <span>Family-Centered</span>
+                  <span></span>
                 </div>
                 <div className="credential-item">
                   <StarIcon className="credential-icon" />
@@ -115,6 +115,12 @@ const Footer = () => {
                     <ArrowRightIcon className="link-arrow" />
                   </Link>
                 </li>
+                <li>
+                  <Link to="/insurance" className="footer-nav-link">
+                    <span>Insurance We Accept</span>
+                    <ArrowRightIcon className="link-arrow" />
+                  </Link>
+                </li>
               </ul>
             </div>
 
@@ -176,7 +182,7 @@ const Footer = () => {
                   </div>
                   <div className="contact-details">
                     <div className="contact-label">Phone</div>
-                    <div className="contact-value">(404) 555-0123</div>
+                    <div className="contact-value">+1 (315) 239-8008</div>
                   </div>
                 </div>
 

@@ -221,7 +221,7 @@ const Home = () => {
                 className="ultra-hero-subheadline"
                 variants={itemVariants}
               >
-                Transform your child's potential with family-centered ABA therapy delivered by experienced professionals.
+                Transform your child's potential with  ABA therapy delivered by experienced professionals.
                 Experience personalized care that adapts to your family's unique journey toward measurable progress.
               </motion.p>
 
@@ -263,7 +263,7 @@ const Home = () => {
               >
                 {[
                   { icon: HomeIcon, text: "Home-Based" },
-                  { icon: HeartIcon, text: "Family-Centered" },
+                  { icon: HeartIcon, text: "" },
                   { icon: UsersIcon, text: "Personalized Care" }
                 ].map((item, index) => (
                   <motion.div
@@ -456,7 +456,7 @@ const Home = () => {
             whileInView="visible"
           >
             {[
-              { icon: BeakerIcon, title: "Family-Centered Excellence", desc: "Our interventions are grounded in compassionate care and proven methodologies" },
+              { icon: BeakerIcon, title: " Excellence", desc: "Our interventions are grounded in compassionate care and proven methodologies" },
               { icon: ShieldCheckIcon, title: "Expert Care Team", desc: "Work with experienced therapists who are passionate about your child's success" },
               { icon: HomeIcon, title: "Home-Based Care Settings", desc: "Therapy delivered in the comfort and familiarity of your own home environment" },
               { icon: UsersIcon, title: "Comprehensive Family Support", desc: "Receive ongoing parent training and support to reinforce progress beyond therapy sessions" },
@@ -623,7 +623,7 @@ const Home = () => {
             >
               <h2 className="ultra-section-title">Personalized ABA Therapy That Works</h2>
               <p className="ultra-subtitle">
-                Our family-centered approach combines compassionate care with proven methodologies to help children with autism reach their full potential.
+                Our  approach combines compassionate care with proven methodologies to help children with autism reach their full potential.
               </p>
               <div className="therapy-benefits-grid">
                 <div className="therapy-benefit-item">
@@ -636,7 +636,7 @@ const Home = () => {
                 <div className="therapy-benefit-item">
                   <CheckCircleIcon className="benefit-icon" />
                   <div>
-                    <h3>Family-Centered Approach</h3>
+                    <h3> Approach</h3>
                     <p>We work closely with families to ensure therapy goals align with home and community settings.</p>
                   </div>
                 </div>

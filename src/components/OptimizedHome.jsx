@@ -46,15 +46,15 @@ const OptimizedHome = () => {
               </h1>
 
               <p className="ultra-hero-subheadline">
-                Personalized autism therapy delivered in the comfort of your Atlanta home.
+                Personalized autism therapy delivered in the comfort of your home.
                 Our experienced professionals provide compassionate in-home ABA therapy
                 tailored to your child's unique needs and your family's schedule.
               </p>
 
               <div className="ultra-cta-group">
-                <Link to="/contact">
+                <Link to="/intake">
                   <button className="ultra-btn primary-explosive">
-                    <span>Start Atlanta Services Today</span>
+                    <span>Start Services Today</span>
                     <RocketLaunchIcon className="btn-rocket" />
                   </button>
                 </Link>
@@ -70,7 +70,7 @@ const OptimizedHome = () => {
               <div className="ultra-trust-indicators">
                 {[
                   { icon: HomeIcon, text: "Home-Based" },
-                  { icon: HeartIcon, text: "Family-Centered" },
+                  { icon: HeartIcon, text: "" },
                   { icon: UsersIcon, text: "Personalized Care" }
                 ].map((item, index) => (
                   <div key={index} className="ultra-trust-item">
@@ -140,7 +140,7 @@ const OptimizedHome = () => {
           <div className="ultra-trust-grid">
             {[
               "Home-Based Therapy",
-              "Family-Centered Approach",
+              " Approach",
               "Family Support Programs"
             ].map((item, index) => (
               <div key={index} className="ultra-trust-pill">
@@ -189,7 +189,7 @@ const OptimizedHome = () => {
             <div className="therapy-programs-text">
               <h2 className="ultra-section-title">Personalized Therapy Programs</h2>
               <p className="ultra-subtitle">
-                Our family-centered programs are tailored to each child's unique needs,
+                Our  programs are tailored to each child's unique needs,
                 fostering growth in communication, social skills, and independence.
               </p>
               <div className="therapy-features-list">
@@ -316,7 +316,7 @@ const OptimizedHome = () => {
             <p className="ultra-cta-subtext">
               Join hundreds of families who have discovered the transformative power of expert ABA therapy
             </p>
-            <Link to="/contact">
+            <Link to="/intake">
               <button className="ultra-btn finale-explosive">
                 <span>Begin Your Journey</span>
               </button>

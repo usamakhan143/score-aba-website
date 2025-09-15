@@ -8,7 +8,7 @@ const Topbar = () => {
         <div className="topbar-left">
           <div className="topbar-item">
             <PhoneIcon className="topbar-icon" />
-            <span>(555) 123-4567</span>
+            <span>+1 (315) 239-8008</span>
           </div>
           <div className="topbar-item">
             <EnvelopeIcon className="topbar-icon" />
