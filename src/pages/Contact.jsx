@@ -22,6 +22,8 @@ const Contact = () => {
     zip: ''
   });
 
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState(null);
   const [expandedFaq, setExpandedFaq] = useState(null);
 
   const handleChange = (e) => {
@@ -31,9 +33,43 @@ const Contact = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
+    setIsSubmitting(true);
+    setSubmitStatus(null);
+
+    try {
+      const apiUrl = import.meta.env.VITE_API_URL || '';
+      const response = await fetch(`${apiUrl}/api/contact`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await response.json();
+
+      if (data.success) {
+        setSubmitStatus({
+          type: 'success',
+          message: 'Thank you! Your message has been sent successfully. Our team will contact you within 24 hours.'
+        });
+        setFormData({ name: '', email: '', phone: '', zip: '' });
+      } else {
+        setSubmitStatus({
+          type: 'error',
+          message: data.message || 'Failed to send message. Please try again.'
+        });
+      }
+    } catch (error) {
+      setSubmitStatus({
+        type: 'error',
+        message: 'Network error. Please check your connection and try again.'
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const toggleFaq = (index) => {
@@ -124,6 +160,19 @@ const Contact = () => {
               </div>
               
               <form className="premium-contact-form" onSubmit={handleSubmit}>
+                {submitStatus && (
+                  <div className={`form-status ${submitStatus.type}`} style={{
+                    padding: '15px',
+                    borderRadius: '8px',
+                    marginBottom: '20px',
+                    backgroundColor: submitStatus.type === 'success' ? '#d4edda' : '#f8d7da',
+                    color: submitStatus.type === 'success' ? '#155724' : '#721c24',
+                    border: `1px solid ${submitStatus.type === 'success' ? '#c3e6cb' : '#f5c6cb'}`
+                  }}>
+                    {submitStatus.message}
+                  </div>
+                )}
+
                 <div className="form-row">
                   <div className="premium-form-group">
                     <label htmlFor="name" className="form-label">Full name *</label>
@@ -136,9 +185,10 @@ const Contact = () => {
                       className="premium-form-input"
                       placeholder="Enter your full name"
                       required
+                      disabled={isSubmitting}
                     />
                   </div>
-                  
+
                   <div className="premium-form-group">
                     <label htmlFor="phone" className="form-label">Phone Number *</label>
                     <input
@@ -150,10 +200,11 @@ const Contact = () => {
                       className="premium-form-input"
                       placeholder="(555) 123-4567"
                       required
+                      disabled={isSubmitting}
                     />
                   </div>
                 </div>
-                
+
                 <div className="form-row">
                   <div className="premium-form-group">
                     <label htmlFor="email" className="form-label">Email address *</label>
@@ -166,9 +217,10 @@ const Contact = () => {
                       className="premium-form-input"
                       placeholder="your.email@example.com"
                       required
+                      disabled={isSubmitting}
                     />
                   </div>
-                  
+
                   <div className="premium-form-group">
                     <label htmlFor="zip" className="form-label">Zip code *</label>
                     <input
@@ -180,16 +232,22 @@ const Contact = () => {
                       className="premium-form-input"
                       placeholder="e.g., 30301"
                       required
+                      disabled={isSubmitting}
                     />
                   </div>
                 </div>
-                
-                <button type="submit" className="premium-btn form-submit-btn">
-                  <span>Contact Our Atlanta Team</span>
+
+                <button
+                  type="submit"
+                  className="premium-btn form-submit-btn"
+                  disabled={isSubmitting}
+                  style={{ opacity: isSubmitting ? 0.7 : 1 }}
+                >
+                  <span>{isSubmitting ? 'Sending...' : 'Contact Our Atlanta Team'}</span>
                   <CalendarDaysIcon className="btn-icon" />
                   <div className="btn-ripple"></div>
                 </button>
-                
+
                 <p className="form-privacy-note">
                   Your information is secure and confidential. We'll never share your details with third parties.
                 </p>

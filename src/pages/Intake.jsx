@@ -9,14 +9,51 @@ const Intake = () => {
     cityOrZip: ''
   });
 
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState(null);
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log('Intake submitted:', formData);
+    setIsSubmitting(true);
+    setSubmitStatus(null);
+
+    try {
+      const apiUrl = import.meta.env.VITE_API_URL || '';
+      const response = await fetch(`${apiUrl}/api/intake`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await response.json();
+
+      if (data.success) {
+        setSubmitStatus({
+          type: 'success',
+          message: 'Thank you! Your intake form has been submitted successfully. Our team will contact you within 24 hours to get started.'
+        });
+        setFormData({ name: '', email: '', phone: '', cityOrZip: '' });
+      } else {
+        setSubmitStatus({
+          type: 'error',
+          message: data.message || 'Failed to submit intake form. Please try again.'
+        });
+      }
+    } catch (error) {
+      setSubmitStatus({
+        type: 'error',
+        message: 'Network error. Please check your connection and try again.'
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -86,30 +123,86 @@ const Intake = () => {
               </div>
 
               <form className="premium-contact-form" onSubmit={handleSubmit}>
+                {submitStatus && (
+                  <div className={`form-status ${submitStatus.type}`} style={{
+                    padding: '15px',
+                    borderRadius: '8px',
+                    marginBottom: '20px',
+                    backgroundColor: submitStatus.type === 'success' ? '#d4edda' : '#f8d7da',
+                    color: submitStatus.type === 'success' ? '#155724' : '#721c24',
+                    border: `1px solid ${submitStatus.type === 'success' ? '#c3e6cb' : '#f5c6cb'}`
+                  }}>
+                    {submitStatus.message}
+                  </div>
+                )}
+
                 <div className="form-row">
                   <div className="premium-form-group">
                     <label htmlFor="name" className="form-label">Full name *</label>
-                    <input id="name" name="name" value={formData.name} onChange={handleChange} className="premium-form-input" placeholder="Full name" required />
+                    <input
+                      id="name"
+                      name="name"
+                      value={formData.name}
+                      onChange={handleChange}
+                      className="premium-form-input"
+                      placeholder="Full name"
+                      required
+                      disabled={isSubmitting}
+                    />
                   </div>
                   <div className="premium-form-group">
                     <label htmlFor="phone" className="form-label">Phone Number *</label>
-                    <input id="phone" name="phone" value={formData.phone} onChange={handleChange} className="premium-form-input" placeholder="(555) 123-4567" required />
+                    <input
+                      id="phone"
+                      name="phone"
+                      type="tel"
+                      value={formData.phone}
+                      onChange={handleChange}
+                      className="premium-form-input"
+                      placeholder="(555) 123-4567"
+                      required
+                      disabled={isSubmitting}
+                    />
                   </div>
                 </div>
 
                 <div className="form-row">
                   <div className="premium-form-group">
                     <label htmlFor="email" className="form-label">Email address *</label>
-                    <input id="email" name="email" type="email" value={formData.email} onChange={handleChange} className="premium-form-input" placeholder="you@example.com" required />
+                    <input
+                      id="email"
+                      name="email"
+                      type="email"
+                      value={formData.email}
+                      onChange={handleChange}
+                      className="premium-form-input"
+                      placeholder="you@example.com"
+                      required
+                      disabled={isSubmitting}
+                    />
                   </div>
                   <div className="premium-form-group">
                     <label htmlFor="cityOrZip" className="form-label">Zip code *</label>
-                    <input id="cityOrZip" name="cityOrZip" value={formData.cityOrZip} onChange={handleChange} className="premium-form-input" placeholder="e.g., 30301" required />
+                    <input
+                      id="cityOrZip"
+                      name="cityOrZip"
+                      value={formData.cityOrZip}
+                      onChange={handleChange}
+                      className="premium-form-input"
+                      placeholder="e.g., 30301"
+                      required
+                      disabled={isSubmitting}
+                    />
                   </div>
                 </div>
 
-                <button type="submit" className="premium-btn form-submit-btn">
-                  <span>Submit Intake</span>
+                <button
+                  type="submit"
+                  className="premium-btn form-submit-btn"
+                  disabled={isSubmitting}
+                  style={{ opacity: isSubmitting ? 0.7 : 1 }}
+                >
+                  <span>{isSubmitting ? 'Submitting...' : 'Submit Intake'}</span>
                   <CalendarDaysIcon className="btn-icon" />
                   <div className="btn-ripple"></div>
                 </button>
